@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # ======================
 # 1. Load and Clean Data
 # ======================
-df = pd.read_csv("fraudTrain.csv")
+df = pd.read_csv("fraud_sample.csv")
 
 # Drop unnecessary column
 if "Unnamed: 0" in df.columns:
